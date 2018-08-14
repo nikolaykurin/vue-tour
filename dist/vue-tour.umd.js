@@ -1088,7 +1088,7 @@ function getStyleComputedProperty(element, property) {
  * @returns {Element} parent
  */
 function getParentNode(element) {
-  return 'HTML';
+  return document.querySelector('html');
 
   if (element.nodeName === 'HTML') {
     return element;
